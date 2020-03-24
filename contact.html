@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <!-- START HEADER SECTION -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>My Portfolio Using Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+  </head>
+
+  <!-- END OF HEADER SECTION / START OF BODY -->
+
+  <body>
+    
+    <!-- TOP OF SCREEN / NAV BAR  -->
+
+    <div id="containe-2" class="container-fluid">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-2">
+          <h1 style="color: white;">Jim Denis</h1>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-4">
+          <nav class="navbar navbar-light bg-light">
+            <ul class="navbar-nav mx-auto flex-row nav-borders">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >About<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="card.html">Card</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+
+    <!-- START OF CONTENT -->
+
+    <div id="container-2" class="container-fluid">
+      <div class="row">
+        <div class="col-8">
+          <h1 id="AboutMe" style="color: green;">Contact</h1>
+        </div>
+        <div id="filler" class="col-4"></div>
+        <div class="col-8">
+          <hr />
+        </div>
+        <div id="filler" class="col-4"></div>
+        <div class="col-8 ">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="name" class="form-control" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="comment">Message:</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+        <div id="filler" class="col-4"></div>
+      </div>
+    </div>
+
+    <!-- START OF FOOTER -->
+
+    <div id="container-3" class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <footer>
+            <p style="color: white;">
+              &copy; 2020 Reynholm Industries.
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

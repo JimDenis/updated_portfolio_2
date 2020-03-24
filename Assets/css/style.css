@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.container {
+  background-color: white;
+}
+
+h1 {
+  background-color: green;
+  display: inline-block;
+  font-size: 25px;
+  align-content: left;
+  padding: 5%; 
+  align-self: left;
+}
+
+.col-4 {
+  background-color: white;
+  padding: 15px; 
+}
+
+
+.col-8 {
+  background-color: white;
+}
+
+#AboutMe {
+  background-color: white;
+  display: inline-block;
+  font-size: 25px;
+  align-content: center;
+  padding: 0%;
+  align-self: center;
+  border-left: gray;
+  box-sizing: border-box;
+}
+
+.bio-img {
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin-right: 10px;
+}
+
+.Port-Pic {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 0px;
+}
+
+.nav-borders {
+  height: 25px;
+  line-height: 10px;
+  background-color: white;
+}
+
+.nav-borders li {
+  border-right: 1px black solid;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.nav-borders li:last-child {
+  border-right: none;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.mx-lg-n5 {
+  background-color: lightgray;
+}
+
+#container-2{
+  border-top: 35px solid lightgray;
+  border-bottom: 35px solid lightgray;
+  border-right: 15px solid lightgrey;
+  border-left: 35px solid lightgrey;
+}
+
+#filler {
+  background-color:lightgray;
+}
+
+#fillerwhite {
+  background-color:white;
+}
+
+button.btn.btn-default {
+ background-color: green; 
+} 
+
+.thumbnail {
+  padding: 20px;
+}
+
+#container-3 {
+  text-align: center;
+  background-color: black;
+}
+
+footer {position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
